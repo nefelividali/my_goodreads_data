@@ -11,7 +11,7 @@ import matplotlib.dates as mdates
 
 
 
-#import csv file using pandas
+#import csv file
 url = 'https://raw.githubusercontent.com/nefvid/my_goodreads_data/main/goodreads_library_export.csv'
 goodreads_data = pd.read_csv(url)
 goodreads_data.info()
